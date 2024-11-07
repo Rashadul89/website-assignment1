@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+h1 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 68px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+h2 {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 37px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+h3 {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+p {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+}
+.text-center {
+  text-align: center;
+}
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
+nav > ul > li {
+  text-decoration: none;
+  list-style: none;
+}
+.azeret-mono-textfont {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.headtitle {
+  font-size: 28px;
+  font-weight: bolder;
+}
+.downloadResumebtn {
+  width: 196px;
+  color: #0d1321;
+  padding: 17px 24px 17px 24px;
+  text-align: center;
+  font-family: "Azeret Mono";
+  cursor: pointer;
+}
+.bg-heroSec {
+  background-image: url(../assets/Hero-bg.png);
+  height: 662px;
+  width: 100%;
+}
+.hero-subbg {
+  display: flex;
+  justify-content: center;
+}
+.hero-contents {
+  display: flex;
+  justify-content: center;
+}
+.btn-control {
+  display: flex;
+  justify-content: center;
+}
+.contact-btn {
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  width: 244px;
+  height: 65px;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 23px;
+  letter-spacing: 0%;
+  cursor: pointer;
+}
+.needsOfWebdev {
+  margin: 80px 97px 80px 97px;
+  border-radius: 16px;
+  background: rgba(13, 19, 33, 0.02);
+}
+.learn-morebtn {
+  width: 170px;
+  height: 45px;
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 12px 20px 12px 20px;
+  font-family: Azeret Mono;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+.content1 {
+  display: flex;
+  gap: 95px;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: linear-gradient(
+    90deg,
+    rgb(255, 255, 255),
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+.container-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.youtube-link {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
