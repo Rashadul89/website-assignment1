@@ -187,10 +187,13 @@ nav > ul > li {
   background-image: url(../assets/handshake.jpg);
   display: flex;
   height: 313px;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  background-position: center;
 }
 .footerContent {
+    margin: 0px;
 }
 .inputControl input {
   padding: 19px 20px 19px 20px;
